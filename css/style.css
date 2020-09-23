@@ -224,7 +224,7 @@ body {
 	display: inline-block;
 	white-space: nowrap;
 	overflow: scroll;
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 30px 0px;
 	width: 100%;
 	font-size: 0;
 }
@@ -248,7 +248,7 @@ body {
 	margin: 0px 0px 20px 0px;
 }
 .autopilotfunction {
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 30px 0px;
 }
 .autopilotfunction span {
 	font-size: 18px;
@@ -256,13 +256,18 @@ body {
 	margin: 0px 10px 0px 0px;
 }
 .functionlist {
+	line-height: 20px;
 }
 .autopilotfuture {
 }
 .autopilotfutureblock {
 }
-.autopilotfutureheading p {
+.autopilotfutureheading {
 	font-size: 21px;
+	font-weight: 500;
+	margin: 0px 0px 10px 0px;
+	color: rgb(91, 190, 227);
+	text-shadow: 2px 2px 2px #000;
 }
 .teslasautopilotimage1 {
 	text-align: right;
@@ -292,15 +297,16 @@ body {
 .autopilotfuturelist {
 	font-size: 21px;
 	margin: 0px 0px 10px 0px;
-	/* text-align: center; */
 }
 .autopilotfuturelist p {
 	font-weight: 500;
 	margin: 0px 0px 10px 0px;
 }
 .autopilotfuturelist li {
-	font-size: 16px;
+	font-size: 14px;
+	font-style: italic;
 	line-height: 20px;
+	color: rgb(91, 190, 227);
 }
 .teslasautopilotimage img {
 	max-width: 100%;
