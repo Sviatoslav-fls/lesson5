@@ -161,7 +161,7 @@ body {
 	font-style: italic;
 	max-height: 170px;
 	max-width: 350px;
-	overflow: scroll;
+	overflow: auto;
 	margin: 0px 30px 10px 0px;
 	background-color: rgba(214, 213, 210, 0.151);
 	padding: 15px;
@@ -223,7 +223,7 @@ body {
 .teslasinterior {
 	display: inline-block;
 	white-space: nowrap;
-	overflow: scroll;
+	overflow: auto;
 	margin: 0px 0px 30px 0px;
 	width: 100%;
 	font-size: 0;
